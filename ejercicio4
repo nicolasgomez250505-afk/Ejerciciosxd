@@ -1,0 +1,16 @@
+using System;
+
+public class Program
+{
+    static void Main()
+    {
+        
+        int suma1 = 100+50;
+        int suma2 = suma1 + 250;
+        int suma3 = suma2 + suma2;
+        Console.WriteLine (suma1);
+        Console.WriteLine (suma2);
+        Console.WriteLine (suma3);
+        
+    }
+}
