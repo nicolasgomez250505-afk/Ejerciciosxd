@@ -1,0 +1,22 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Tiene licencia?   True or False");
+        bool licencia = Convert.ToBoolean(Console.ReadLine());
+        Console.WriteLine("Cuantos años de experiencia tiene?");
+        int exp = Convert.ToInt32(Console.ReadLine());
+
+        if (licencia==true && exp>=2)
+        {
+            Console.WriteLine("Es apto para el puesto");
+        }
+        else
+        {
+             
+            Console.WriteLine("Dediquese a otra cosa amigo!");
+        }
+    }
+}
