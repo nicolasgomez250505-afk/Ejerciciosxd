@@ -1,0 +1,21 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese un numero: ");
+        int x = Convert.ToInt32(Console.ReadLine());
+        if (x<=18)
+        {
+            Console.WriteLine("Bien mijo, su numero es menor a 18");
+        }
+        else
+        {
+            Console.WriteLine("Mal mijo, su numero es mayor a 18");
+        }
+    }
+}
