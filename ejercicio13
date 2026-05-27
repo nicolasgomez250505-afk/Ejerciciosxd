@@ -1,0 +1,33 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        //Dia a ingresar
+        Console.WriteLine("Digite un numero del 1 al 7"); 
+        int dia = Convert.ToInt32(Console.ReadLine());
+       //Se crea el menu de opciones
+        switch (dia)
+        {
+            case 1:
+            Console.WriteLine("Lunes de guayabo");
+            break;
+            case 2:
+            Console.WriteLine("Martes de guayabo x2");
+            break;
+            case 3:
+            Console.WriteLine("Miercoles de dormir");           //Dependiendo del numero ingresado, se imprime un dia de la semana
+            break;
+            case 4:
+            Console.WriteLine("Jueves de polas");
+            break;
+            case 5:
+            Console.WriteLine("Viernes de farra");
+            break;
+            default:
+            Console.WriteLine("Fin de semana de descontrol");
+            break;
+        }
+    }
+}
