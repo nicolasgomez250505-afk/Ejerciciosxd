@@ -1,0 +1,14 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        int i = 0;
+        while (i<5)     //Mientras el numero sea menor que 5, se va a imprimir el incremento
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+    }
+}
