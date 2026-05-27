@@ -1,0 +1,21 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Escriba un dia de la semana"); //Primer dia a ingresar
+        string dia1 = Console.ReadLine().ToLower();
+        Console.WriteLine("Escriba otro dia de la semana"); //Segundo dia a ingresar
+        string dia2 = Console.ReadLine().ToLower();
+        if (dia1=="sabado" || dia2=="domingo")  //Se realiza la condicion
+        {
+            Console.WriteLine("Es fin de semana"); //Se define si es fin de semana si uno de los dos es sabado o domingo
+        }
+        else
+        {
+             
+            Console.WriteLine("Es dia laboral");  //Si no es ninguno de los dos, es dia laboral
+        }
+    }
+}
