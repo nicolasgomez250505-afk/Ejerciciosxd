@@ -1,0 +1,18 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class program
+{
+    public static void Main(string[] args)
+    {
+        int x = 20;
+        int y = 18;
+        if (x<y);
+        {
+            Console.WriteLine("El numero x es mayor que y");
+        }
+        
+    }
+}
