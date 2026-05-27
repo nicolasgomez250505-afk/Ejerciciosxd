@@ -1,0 +1,28 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Ingrese una nota: ");
+        int x = Convert.ToInt32(Console.ReadLine());
+
+        if (x >= 90)
+        {
+            Console.WriteLine("Su calificación es A");
+        }
+        else if (x >= 80)
+        {
+            Console.WriteLine("Su calificación es B");
+        }
+        else if (x >= 70)
+        {
+            Console.WriteLine("Su calificación es C");
+        }
+        else
+        {
+             
+            Console.WriteLine("Dediquese a otra cosa amigo!");
+        }
+    }
+}
