@@ -1,0 +1,11 @@
+using System;
+public class program
+{
+    public static void Main()
+    {
+        string[] cars;
+        
+        cars= new string[] {"Volvo", "BMW", "Ford"};
+        Console.WriteLine(cars[0]);
+    }
+}
